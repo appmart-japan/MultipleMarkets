@@ -23,8 +23,8 @@ if(installationSource.equals("com.android.vending")){
 }
 ```
 
-*Google Market(c) からのインストールの場合は　Google Wallet(c) APIを実装します。
-*その他のマーケットの場合はAppmartの課金APIを実装します。
+ * Google Market(c) からのインストールの場合は　Google Wallet(c) APIを実装します。
+ * その他のマーケットの場合はAppmartの課金APIを実装します。
 
 ###参照
 
