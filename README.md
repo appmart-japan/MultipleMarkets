@@ -34,8 +34,6 @@ if(installationSource.equals("com.android.vending")){
 
 ###参照
 
-*Google Marketの課金APIはこちら
- http://developer.android.com/google/play/billing/billing_integrate.html
-
-*Appmartの課金APIはこちら
- https://github.com/info-appmart/inBillingSampleOnePage
++ [Google Marketの課金APIはこち](http://developer.android.com/google/play/billing/billing_integrate.html)
++ [Appmartの課金APIはこちら](https://github.com/info-appmart/inBillingSampleOnePage)
+ 
