@@ -1,12 +1,18 @@
 アプリ提供元確認
 ===============
 
+
+![last-version](http://img.shields.io/badge/last%20version-1.0-green.svg "last version:1.0") 
+
+![license apache 2.0](http://img.shields.io/badge/license-apache%202.0-brightgreen.svg "licence apache 2.0")
+
+
 ###提供元取得
 
 マーケットの提供元を取得るために、
 【PackageManager】の【getInstallerPackageName】をご利用ください。
 
-```
+```java
 PackageManager pm = getPackageManager();
 String installationSource = pm.getInstallerPackageName(getPackageName());
 ```
