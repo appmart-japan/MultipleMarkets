@@ -20,7 +20,7 @@ String installationSource = pm.getInstallerPackageName(getPackageName());
 Google Play(c)からインストールされたものの場合は "com.android.vending"がリターンされます。
 
 ```java
-if(installationSource.equals("com.android.vending")){
+if(installationSource != null && installationSource.equals("com.android.vending")){
 	Log.d("DEBUG", "google Play(c)からインストールされました。");
 	//TODO google Wallet(c)のAPIを実装
 }else{
